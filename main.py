@@ -55,23 +55,12 @@ YOUTUBE_LINKS = {
 
 IMAGE_URLS = {
     "D9": ["https://express-china.ru/upload/iblock/091/uYAAAgJdAuA_960.jpg"],
-    "D6": ["https://express-china.ru/upload/iblock/091/uYAAAgJdAuA_960.jpg"],
+    "D6": ["https://cdn2.criline.ru/assets/cache_image/products/11049/d6-01_800x800_bd3.png", "https://www.criline.ru/assets/images/products/11049/dop-d6-1.jpg"],
     "D5": ["https://express-china.ru/upload/iblock/091/uYAAAgJdAuA_960.jpg"],
     "D4": ["https://express-china.ru/upload/iblock/091/uYAAAgJdAuA_960.jpg"],
     "DK": ["https://express-china.ru/upload/iblock/091/uYAAAgJdAuA_960.jpg"],
     "H4B": ["https://express-china.ru/upload/iblock/091/uYAAAgJdAuA_960.jpg"],
     "H4P": ["https://express-china.ru/upload/iblock/091/uYAAAgJdAuA_960.jpg"]
-}
-
-# Отображение названий услуг
-SERVICE_NAMES = {
-    'biled': 'Установка Bi-LED модулей',
-    'glass_replacement': 'Замена стёкол',
-    'polishing': 'Полировка и оклейка бронеплёнкой',
-    'dehumidification': 'Устранение запотеваний',
-    'led_modification': 'Доработка светодиодных фар',
-    'okleivanie': 'Оклеивание авто',
-    'chemclean': 'Химчистка авто'
 }
 
 BI_LED_MODULES = {
@@ -86,10 +75,21 @@ BI_LED_YOUTUBE_LINKS = {
     "B3": "https://www.youtube.com/watch?v=link_for_B3",
 }
 
+# Отображение названий услуг
+SERVICE_NAMES = {
+    'biled': 'Установка Bi-LED модулей',
+    'glass_replacement': 'Замена стёкол',
+    'polishing': 'Полировка и оклейка бронеплёнкой',
+    'dehumidification': 'Устранение запотеваний',
+    'led_modification': 'Доработка светодиодных фар',
+    'okleivanie': 'Оклеивание авто',
+    'chemclean': 'Химчистка авто'
+}
+
 # Состояния
 SERVICE_SELECTION, GET_CAR_INFO, SCHEDULE_APPOINTMENT = range(3)
 
-# Список команд и текстов кнопок
+# Список игнорируемых команд
 IGNORED_COMMANDS = {
     "🔍 Информация о Нас",
     "↩️ Назад",
