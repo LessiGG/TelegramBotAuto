@@ -6,11 +6,11 @@ from telegram.constants import ParseMode
 from datetime import datetime, timedelta
 
 # Константы
-TOKEN: Final = "7323246272:AAGjN9bG8oJ7k4pmpwEkuMvkG45w1hckg1I"
-BOT_USERNAME: Final = "@prodetailing_bot"
-GROUP_URL: Final = "https://t.me/+wOmoL3yiNecwNzcy"
-AVITO_URL: Final = "https://www.avito.ru/user/9b2d77e21273b8fa19878c426d0536a0/profile?src=sharing"
-OWNER_CHAT_ID: Final = "771810696"
+TOKEN: Final = "токен бота"
+BOT_USERNAME: Final = "@тег бота"
+GROUP_URL: Final = "ссылка на группу для приглашения"
+AVITO_URL: Final = "ссылка на авито"
+OWNER_CHAT_ID: Final = "айди чата"
 
 # Клавиатуры
 MAIN_MENU_KEYBOARD = [
